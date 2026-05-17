@@ -1,4 +1,4 @@
-# tools — list every tool note in the command-line notes repo, grouped by category.
+# tools — list every tool note in the bt-knowledge-base notes repo, grouped by category.
 #
 # Usage:
 #   tools                # all categories
@@ -9,7 +9,7 @@
 # and punctuation match (e.g. "AWS CLI", "Linux Services").
 
 tools() {
-    local repo="$HOME/Documents/repos/command-line"
+    local repo="$HOME/Documents/repos/bt-knowledge-base"
     local cat_dir="$repo/doc/categories"
     local filter="$1"
     local cat_file cat_name

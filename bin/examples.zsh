@@ -1,4 +1,4 @@
-# examples — search the command-line notes repo and open matching .md files in the browser.
+# examples — search the bt-knowledge-base notes repo and open matching .md files in the browser.
 #
 # Usage:
 #   examples <term>
@@ -12,10 +12,10 @@
 #   started in the background on first use (so cross-file links resolve).
 #
 # Requires: grip, lsof, open (macOS).  Fallback search also needs rg and fzf.
-# To install: add `source ~/Documents/repos/command-line/bin/examples.zsh` to ~/.zshrc
+# To install: add `source ~/Documents/repos/bt-knowledge-base/bin/examples.zsh` to ~/.zshrc
 
 examples() {
-    local repo="$HOME/Documents/repos/command-line"
+    local repo="$HOME/Documents/repos/bt-knowledge-base"
     local port=6419
     local term="$1"
 

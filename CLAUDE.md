@@ -8,7 +8,7 @@ A personal CLI cheat-sheet. The audience is the repo owner, refreshing on comman
 
 ## Three-tier structure
 
-1. **Top-level index** — `doc/command-line.md`. Lists categories only. Populated categories are links; empty categories are placeholders (plain text, no link).
+1. **Top-level index** — `doc/bt-knowledge-base.md`. Lists categories only. Populated categories are links; empty categories are placeholders (plain text, no link).
 2. **Category files** — `doc/categories/<kebab-case>.md`. One per category. Lists the tools in that category, each linking to its tool note. Short intro line is fine; no examples here.
 3. **Tool notes** — `tool-notes/<tool>.md`. Where the actual examples live. One file per tool.
 
@@ -16,7 +16,7 @@ Examples never live in tiers 1 or 2 — only in tool notes.
 
 ## Path conventions
 
-- `doc/command-line.md` → category file: `categories/<name>.md`
+- `doc/bt-knowledge-base.md` → category file: `categories/<name>.md`
 - `doc/categories/<x>.md` → tool note: `../../tool-notes/<name>.md`
 - File names are kebab-case (`linux-services.md`, not `LinuxServices.md` or `linux_services.md`).
 
@@ -65,16 +65,16 @@ Not every section is mandatory — only `# title` + 1-line description + at leas
 
 1. Write `tool-notes/<tool>.md` in the style above.
 2. Add a bullet to the appropriate `doc/categories/<cat>.md`.
-3. If the category file doesn't exist yet, create it, and convert its placeholder in `doc/command-line.md` to a link.
+3. If the category file doesn't exist yet, create it, and convert its placeholder in `doc/bt-knowledge-base.md` to a link.
 
 ## When adding a new category
 
 - Create `doc/categories/<kebab-case>.md` (one-line intro + tool list).
-- Replace the placeholder in `doc/command-line.md` with a link to the new category file.
+- Replace the placeholder in `doc/bt-knowledge-base.md` with a link to the new category file.
 
 ## Don'ts
 
-- Don't put command examples in `doc/command-line.md` or in category files — examples belong in tool notes.
+- Don't put command examples in `doc/bt-knowledge-base.md` or in category files — examples belong in tool notes.
 - Don't duplicate a tool across categories — pick one home.
 - Don't create a category file with zero tools — leave it as a placeholder in the top-level index until there's something to put in it.
 - Don't write tutorial prose. This is a cheat-sheet, not a manual.
