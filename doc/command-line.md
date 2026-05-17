@@ -36,20 +36,20 @@ tool() {
 
 ## Categories
 
-- System
-- Hardware Information
-- [File and Directory](categories/file-and-directory.md)
-- [Search and Sort](categories/search-and-sort.md)
-- Archiving
-- Installing packages
-- [Performance and Monitoring](categories/performance-and-monitoring.md)
-- [Network](categories/network.md)
-- [Linux Services](categories/linux-services.md)
-- [Bluetooth](categories/bluetooth.md)
-- [Audio](categories/audio.md)
-- [Git](categories/git.md)
-- Disk
-- Text Processing
-- [AWS CLI](categories/aws-cli.md)
 - [Ansible](categories/ansible.md)
+- Archiving
+- [Audio](categories/audio.md)
+- [AWS CLI](categories/aws-cli.md)
+- [Bluetooth](categories/bluetooth.md)
+- Disk
+- [File and Directory](categories/file-and-directory.md)
+- [Git](categories/git.md)
+- [Hardware Information](categories/hardware-information.md)
+- Installing packages
+- [Linux Services](categories/linux-services.md)
+- [Network](categories/network.md)
+- [Performance and Monitoring](categories/performance-and-monitoring.md)
+- [Search and Sort](categories/search-and-sort.md)
+- System
+- [Text Processing](categories/text-processing.md)
 - [Useful Tools](categories/useful-tools.md)
