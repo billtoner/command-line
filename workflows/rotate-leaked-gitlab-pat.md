@@ -154,8 +154,12 @@ git fetch && git push --dry-run
 # gitleaks no longer fires on the current working tree
 gitleaks detect --no-banner
 
-# Pre-commit blocks new attempts (smoke test)
-echo "FAKE=glpat-aB3cD4eF5gH6iJ7kL8m9" > /tmp/test.txt
+# Pre-commit blocks new attempts (smoke test).
+# Generate the fake at runtime rather than hardcoding one — committing a
+# realistic-looking token here is exactly what GitHub's push protection
+# will refuse, and rightly so.
+FAKE=$(openssl rand -base64 15 | tr -d '=+/' | head -c 20)
+echo "TOKEN=glpat-$FAKE" > /tmp/test.txt
 gitleaks detect --source /tmp/test.txt --no-git --no-banner   # should report 1 leak
 rm /tmp/test.txt
 ```
