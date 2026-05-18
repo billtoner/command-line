@@ -43,9 +43,11 @@ tool() {
 - [Bluetooth](categories/bluetooth.md)
 - Disk
 - [File and Directory](categories/file-and-directory.md)
+- [Firewall](categories/firewall.md)
 - [Git](categories/git.md)
 - [Hardware Information](categories/hardware-information.md)
 - Installing packages
+- [Languages](categories/languages.md)
 - [Linux Services](categories/linux-services.md)
 - [Network](categories/network.md)
 - [Performance and Monitoring](categories/performance-and-monitoring.md)
@@ -53,3 +55,4 @@ tool() {
 - System
 - [Text Processing](categories/text-processing.md)
 - [Useful Tools](categories/useful-tools.md)
+- [VPN](categories/vpn.md)
